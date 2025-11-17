@@ -1,0 +1,5 @@
+/home/javierac/Documents/ucm/vpc/github/vpc_misc_ucm-uned_25-26/implementaciones_temas_2_6/tema3/build/CMakeFiles/ecualizacion.dir
+/home/javierac/Documents/ucm/vpc/github/vpc_misc_ucm-uned_25-26/implementaciones_temas_2_6/tema3/build/CMakeFiles/filtroGaussiano.dir
+/home/javierac/Documents/ucm/vpc/github/vpc_misc_ucm-uned_25-26/implementaciones_temas_2_6/tema3/build/CMakeFiles/registro.dir
+/home/javierac/Documents/ucm/vpc/github/vpc_misc_ucm-uned_25-26/implementaciones_temas_2_6/tema3/build/CMakeFiles/edit_cache.dir
+/home/javierac/Documents/ucm/vpc/github/vpc_misc_ucm-uned_25-26/implementaciones_temas_2_6/tema3/build/CMakeFiles/rebuild_cache.dir
