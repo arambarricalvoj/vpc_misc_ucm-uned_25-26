@@ -1,0 +1,4 @@
+/home/javierac/Documents/ucm/vpc/github/vpc_misc_ucm-uned_25-26/implementaciones_temas_2_6/tema4/build/CMakeFiles/kim_aggarwal.dir
+/home/javierac/Documents/ucm/vpc/github/vpc_misc_ucm-uned_25-26/implementaciones_temas_2_6/tema4/build/CMakeFiles/sobel.dir
+/home/javierac/Documents/ucm/vpc/github/vpc_misc_ucm-uned_25-26/implementaciones_temas_2_6/tema4/build/CMakeFiles/edit_cache.dir
+/home/javierac/Documents/ucm/vpc/github/vpc_misc_ucm-uned_25-26/implementaciones_temas_2_6/tema4/build/CMakeFiles/rebuild_cache.dir
