@@ -16,7 +16,9 @@ include_directories(
 # Ejecutables
 add_executable(kim_aggarwal kim_aggarwal.cpp filtroGaussiano.cpp)
 add_executable(sobel sobel.cpp)
+add_executable(harris harris.cpp)
 
 # Enlaza librerías
 target_link_libraries(kim_aggarwal ${OpenCV_LIBS})
 target_link_libraries(sobel ${OpenCV_LIBS})
+target_link_libraries(harris ${OpenCV_LIBS})

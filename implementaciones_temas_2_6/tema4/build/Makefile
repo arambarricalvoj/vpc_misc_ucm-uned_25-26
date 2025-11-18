@@ -142,6 +142,19 @@ sobel/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sobel.dir/build.make CMakeFiles/sobel.dir/build
 .PHONY : sobel/fast
 
+#=============================================================================
+# Target rules for targets named harris
+
+# Build rule for target.
+harris: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 harris
+.PHONY : harris
+
+# fast build rule for target.
+harris/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/harris.dir/build.make CMakeFiles/harris.dir/build
+.PHONY : harris/fast
+
 filtroGaussiano.o: filtroGaussiano.cpp.o
 .PHONY : filtroGaussiano.o
 
@@ -165,6 +178,30 @@ filtroGaussiano.s: filtroGaussiano.cpp.s
 filtroGaussiano.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kim_aggarwal.dir/build.make CMakeFiles/kim_aggarwal.dir/filtroGaussiano.cpp.s
 .PHONY : filtroGaussiano.cpp.s
+
+harris.o: harris.cpp.o
+.PHONY : harris.o
+
+# target to build an object file
+harris.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/harris.dir/build.make CMakeFiles/harris.dir/harris.cpp.o
+.PHONY : harris.cpp.o
+
+harris.i: harris.cpp.i
+.PHONY : harris.i
+
+# target to preprocess a source file
+harris.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/harris.dir/build.make CMakeFiles/harris.dir/harris.cpp.i
+.PHONY : harris.cpp.i
+
+harris.s: harris.cpp.s
+.PHONY : harris.s
+
+# target to generate assembly for a file
+harris.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/harris.dir/build.make CMakeFiles/harris.dir/harris.cpp.s
+.PHONY : harris.cpp.s
 
 kim_aggarwal.o: kim_aggarwal.cpp.o
 .PHONY : kim_aggarwal.o
@@ -222,11 +259,15 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... harris"
 	@echo "... kim_aggarwal"
 	@echo "... sobel"
 	@echo "... filtroGaussiano.o"
 	@echo "... filtroGaussiano.i"
 	@echo "... filtroGaussiano.s"
+	@echo "... harris.o"
+	@echo "... harris.i"
+	@echo "... harris.s"
 	@echo "... kim_aggarwal.o"
 	@echo "... kim_aggarwal.i"
 	@echo "... kim_aggarwal.s"
