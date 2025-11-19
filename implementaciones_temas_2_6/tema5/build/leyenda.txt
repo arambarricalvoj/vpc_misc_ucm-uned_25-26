@@ -1,0 +1,1 @@
+./hough original.png out_lines_0.png 1.0 8 0.5 lines --thetaBins 180 --rhoStep 1 --lineVotes 80 --maxLines 10
