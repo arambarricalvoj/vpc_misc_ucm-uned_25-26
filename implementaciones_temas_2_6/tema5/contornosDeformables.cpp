@@ -20,25 +20,6 @@ Ejemplo:
  - maxIter = 200  (máximo número de iteraciones)
 */
 
-Perfecto, lo que hiciste con las circunferencias fue expresar los parámetros en notación matemática dentro del texto. Te adapto ahora los parámetros de tus comandos de contornos deformables (snakes) en el mismo estilo:
-
-latex
-$N = 200;\; \sigma = 1.0;\; \alpha = 0.8;\; \beta = 0.6;\; \gamma = 1.0;\; 
-\text{win} = 7;\; T_{1} = 5;\; T_{2} = 0.02;\; T_{3} = 20;\; \text{maxIter} = 200$
-Otro ejemplo con los parámetros del segundo comando:
-
-latex
-$N = 100;\; \sigma = 1.0;\; \alpha = 0.3;\; \beta = 0.2;\; \gamma = 1.0;\; 
-\text{win} = 5;\; T_{1} = 3;\; T_{2} = 0.02;\; T_{3} = 15;\; \text{maxIter} = 150$
-Y para los casos de la imagen rojo_664.png:
-
-latex
-$N = 10;\; \sigma = 1.0;\; \alpha = 0.8;\; \beta = 0.6;\; \gamma = 1.0;\; 
-\text{win} = 7;\; T_{1} = 5;\; T_{2} = 0.02;\; T_{3} = 20;\; \text{maxIter} = 200$
-latex
-$N = 100;\; \sigma = 1.0;\; \alpha = 0.8;\; \beta = 0.6;\; \gamma = 1.0;\; 
-\text{win} = 7;\; T_{1} = 5;\; T_{2} = 0.02;\; T_{3} = 20;\; \text{maxIter} = 200$
-
 #include <opencv2/opencv.hpp>
 #include <iostream>
 #include <vector>

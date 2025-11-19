@@ -1,0 +1,3 @@
+/home/javierac/Documents/ucm/vpc/tema6/implementacion/build/CMakeFiles/opMorf.dir
+/home/javierac/Documents/ucm/vpc/tema6/implementacion/build/CMakeFiles/edit_cache.dir
+/home/javierac/Documents/ucm/vpc/tema6/implementacion/build/CMakeFiles/rebuild_cache.dir
