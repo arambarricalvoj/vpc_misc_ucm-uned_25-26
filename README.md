@@ -1,11 +1,11 @@
-# Visión por Computador: implementaciones de los temas 2 a 6
+# Visión por Computador: trabajos de la asignatura
 - Autor: Javier Arambarri Calvo
 - Asignatura: Visión por Computador
 - Máster: Ingeniería de Sistemas y Control
 - Universidad: UCM y UNED - España
 - Curso: 2025-2026
 
-Este repositorio recoge los trabajos evaluanles de la asignatura citada.
+Este repositorio recoge los trabajos evaluables de la asignatura citada.
 
 - ``VpC_ImplementacionesTemas2-6_JavierArambarriCalvo_compressed-signed.pdf`` es la memoria de las técnicas implementadas y en el directorio 
 ``implementaciones_temas_2_6`` se encuentra el código con instrucciones de compilación y ejecución.
